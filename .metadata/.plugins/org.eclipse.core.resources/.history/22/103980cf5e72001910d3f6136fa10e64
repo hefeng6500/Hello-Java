@@ -1,0 +1,32 @@
+package com.dadacar;
+/*
+ * ∂®“Â∆§ø®¿‡
+ * */
+public class Pickup extends Car {
+	String name;
+	int countPeople;
+	int loadWeight;
+	int cash;
+	
+	public Pickup(String name,int cash, int countPeople, int loadWeight) {
+		this.name = name;
+		this.setCount(countPeople);
+		this.setWeight(loadWeight);
+		this.cash = cash;
+	}
+	
+	public void setCount(int countPeople) {
+		this.countPeople = countPeople;
+	}
+	public int getCount() {
+		return countPeople;
+	}
+	
+	
+	public void setWeight(int loadWeight) {
+		this.loadWeight = loadWeight;
+	}
+	public int getWeight() {
+		return loadWeight;
+	}
+}

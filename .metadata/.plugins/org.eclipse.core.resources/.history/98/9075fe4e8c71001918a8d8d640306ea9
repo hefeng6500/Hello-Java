@@ -1,0 +1,10 @@
+package com.imooc;
+
+public class Test {
+	public static void main(String[] args) {
+		APerson p1 = new Chinese();
+		APerson p2 = new America();
+		p1.say();
+		p2.say();
+	}
+}

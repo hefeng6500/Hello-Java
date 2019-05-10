@@ -1,0 +1,16 @@
+package com.dadacar;
+
+/*
+ * 定义客车类
+ * */
+public class PassengerCar extends Car {
+	String name;
+	int cash;
+	int countPeople;
+	public PassengerCar(String name, int cash, int countPeople) {
+		this.name = name;
+		this.cash = cash;
+		this.countPeople = countPeople;
+	}
+	
+}

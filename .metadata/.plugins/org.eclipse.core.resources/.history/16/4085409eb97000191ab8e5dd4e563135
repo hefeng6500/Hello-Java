@@ -1,0 +1,34 @@
+package com.mooc;
+
+public class StaticLesson {
+	int num1;
+	int num2;
+	static int num3;
+	
+	public StaticLesson() {
+		num1 = 1;
+		System.out.println("num1赋值为： " + num1);	
+	}
+	
+	{
+		num2 = 2;
+		System.out.println("num2赋值为： " + num2);
+	}
+	
+	static {
+		num3 = 3;
+		System.out.println("num3静态变量赋值为： " + num3);
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO 自动生成的方法存根
+		
+		StaticLesson hello = new StaticLesson();
+		System.out.println("num1: " + hello.num1);
+		System.out.println("num2: " + hello.num2);
+		System.out.println("num3: " + hello.num3);
+	}
+
+}

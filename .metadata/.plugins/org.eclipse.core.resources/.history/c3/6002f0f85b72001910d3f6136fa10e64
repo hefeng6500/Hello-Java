@@ -1,0 +1,16 @@
+package com.dadacar;
+
+/*
+ * 定义货车类
+ * */
+public class TruckCar {
+	String name;
+	int loadWeight;
+	int rentDay;
+	
+	public TruckCar(String name, int loadWeight, int rentDay) {
+		this.name = name;
+		this.loadWeight = loadWeight;
+		this.rentDay = rentDay;
+	}
+}

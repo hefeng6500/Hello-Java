@@ -1,0 +1,17 @@
+package com.imooc;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO 自动生成的方法存根
+		
+//		Chinese p = new Chinese();
+//		America p2 = new America();
+		
+		Person p = new Chinese();
+		Person p2 = new America()
+		p.say();
+		p2.say();
+	}
+
+}

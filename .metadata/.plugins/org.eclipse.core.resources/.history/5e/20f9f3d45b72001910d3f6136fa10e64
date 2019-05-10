@@ -1,0 +1,25 @@
+package com.dadacar;
+
+/*
+ * 定义客车类
+ * */
+public class PassengerCar {
+	String name;
+	int countPeople;
+	int rentDay;
+	
+	public PassengerCar(String name, int countPeople, int rentDay) {
+		this.name = name;
+//		this.setCount(countPeople);
+		Car c = new PassengerCar();
+		c.setCount(countPeople);
+		this.rentDay = rentDay;
+	}
+	
+	public void setCount(int countPeople) {
+		this.countPeople = countPeople;
+	}
+	public int getCount() {
+		return countPeople;
+	}
+}

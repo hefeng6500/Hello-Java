@@ -1,0 +1,20 @@
+package com.dadacar;
+
+public abstract class Car {
+	String name;
+	int cash;
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public int getcash() {
+		return cash;
+	}
+	public void setcash(int cash) {
+		this.cash = cash;
+	}
+}

@@ -1,0 +1,12 @@
+package com.mooc;
+
+public class InitialTelphone {
+
+	public static void main(String[] args) {
+		// TODO 自动生成的方法存根
+
+		Telphone phone = new Telphone();
+		phone.sendMessage();
+	}
+
+}

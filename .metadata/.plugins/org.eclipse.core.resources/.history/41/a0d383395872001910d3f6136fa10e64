@@ -1,0 +1,28 @@
+package com.dadacar;
+
+public class Pickup {
+	String name;
+	int countPeople;
+	int loadWeight;
+	
+	public Pickup(String name, int countPeople, int loadWeight) {
+		this.name = name;
+		this.setCount(countPeople);
+		
+	}
+	
+	public void setCount(int countPeople) {
+		this.countPeople = countPeople;
+	}
+	public int getCount() {
+		return countPeople;
+	}
+	
+	
+	public void setWeight(int loadWeight) {
+		this.loadWeight = loadWeight;
+	}
+	public int getWeight() {
+		return loadWeight;
+	}
+}

@@ -1,0 +1,13 @@
+package com.dadacar;
+
+public class Pickup {
+	String name;
+	int countPeople;
+	int loadWeight;
+	
+	public Pickup(String name, int countPeople, int loadWeight) {
+		this.name = name;
+		this.countPeople = countPeople;
+		this.loadWeight = loadWeight;
+	}
+}

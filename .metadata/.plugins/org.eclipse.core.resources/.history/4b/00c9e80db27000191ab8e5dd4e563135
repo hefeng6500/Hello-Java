@@ -1,0 +1,21 @@
+package com.mooc;
+
+public class Telphone {
+	
+	float screen;
+	float size;
+	float price;
+	
+	void Call() {
+		System.out.println("打电话");
+	}
+	
+	void sendMessage() {
+		System.out.println("发送短信: " + "size:" + size + ", " + "price" + price);
+	}
+	public static void main(String[] args) {
+		// TODO 自动生成的方法存根
+
+	}
+
+}

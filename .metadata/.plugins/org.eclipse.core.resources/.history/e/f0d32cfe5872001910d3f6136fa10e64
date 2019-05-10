@@ -1,0 +1,32 @@
+package com.dadacar;
+/*
+ * 定义皮卡车型
+ * */
+public class Pickup {
+	String name;
+	int countPeople;
+	int loadWeight;
+	int rentDay;
+	
+	public Pickup(String name, int countPeople, int loadWeight, int rentDay) {
+		this.name = name;
+		this.setCount(countPeople);
+		this.setWeight(loadWeight);
+		this.rentDay = rentDay;
+	}
+	
+	public void setCount(int countPeople) {
+		this.countPeople = countPeople;
+	}
+	public int getCount() {
+		return countPeople;
+	}
+	
+	
+	public void setWeight(int loadWeight) {
+		this.loadWeight = loadWeight;
+	}
+	public int getWeight() {
+		return loadWeight;
+	}
+}

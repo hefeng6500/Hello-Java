@@ -1,0 +1,38 @@
+package com.dadacar;
+
+import java.util.Scanner;
+
+public class Initial {
+
+	public static void main(String[] args) {
+		System.out.println("欢迎进入答答租车系统,您是否需要租车？");
+		System.out.println("您是否要租车：1是 0否");
+		Scanner scan = new Scanner(System.in);
+		int use = scan.nextInt();
+		
+		if(use == 1) {
+			System.out.println("请选择您车型：");
+			Car[] cars = {new PassengerCar("玛莎拉蒂", 2000, 4), new TruckCar("东风", 500, 20), new Pickup("长城", 800, 2, 5)};
+			for(Car car: cars) {
+				
+				if(car instanceof PassengerCar) {
+					System.out.println(car.getName());
+				}
+				if(car instanceof TruckCar) {
+					System.out.println("");
+				}
+				if(car instanceof Pickup) {
+					System.out.println("");
+				}
+			}
+		}else if (use == 0){
+			System.out.println("再见！");
+		} else {
+			System.out.println("您输入的有误");
+		}
+		scan.close();
+		
+
+	}
+
+}

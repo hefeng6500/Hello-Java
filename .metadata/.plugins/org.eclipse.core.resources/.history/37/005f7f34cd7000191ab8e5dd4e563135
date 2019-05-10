@@ -1,0 +1,18 @@
+package com.mooc;
+
+public class outer {
+	int a = 1;
+	int b = 2;
+
+	public class inner {
+		public void test() {
+			System.out.println("我是内部类！");
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO 自动生成的方法存根
+
+	}
+
+}
