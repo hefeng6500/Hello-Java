@@ -54,10 +54,11 @@ public class Initial {
 					totalCountPeople += ((Pickup) car).getCountPeople();
 					totalLoadWeight += ((Pickup) car).getWeight();
 				}
+				
+				System.out.println("租车总载重：" + totalLoadWeight);
+				System.out.println("租车总载人数：" + totalCountPeople);
+				System.out.println("租车总金额：" + totalCash);
 			}
-			System.out.println("租车总载重：" + totalLoadWeight);
-			System.out.println("租车总载人数：" + totalCountPeople);
-			System.out.println("租车总金额：" + totalCash);
 		}else if (use == 0){
 			System.out.println("再见！");
 		} else {
